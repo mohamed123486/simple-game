@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="١dp"
+        tools:layout_editor_absoluteY="١dp">
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="?android:attr/galleryItemBackground"
+            android:gravity="center"
+            android:textColor="#E64A19"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/En"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="اللغه الانجليزيه"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="#5331A6" />
+
+            <Button
+                android:id="@+id/px"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="جدول الضرب"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ksn"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="بعض من قصص الانبياء"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="#2364CF" />
+
+            <Button
+                android:id="@+id/ks"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="قصص اطفال"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="#5331A6" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
